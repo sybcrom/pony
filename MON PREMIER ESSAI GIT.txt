@@ -1,3 +1,19 @@
-Coucou git :) je découvre comment conserver mes fichiers sur le net.
+Bon bon c'était bien.
 
-HAHA JE FAIS UN CHANGEMENT J'AI DIT è_é
+Un petit résumé :
+
+Pour dire à Git qu'un dossier doit servir de "REPO" : --> GIT INIT (dans une console, depuis le dossier en question)
+
+Pour vérifier s'il y a quelque chose à ajouter à ce REPO : --> GIT STATUS
+
+Pour préparer l'ajout de ce quelque chose : --> GIT ADD +nom du quelque chose (ou GIT ADD . pour ajouter tout d'un coup)
+		Ou pour annuler l'ajout : --> GIT CHECKOUT -- Nom_du_dernier_ajout_dont_on_est_content
+
+Pour confirmer cet ajout et écrire un message explicatif : --> GIT COMMIT -M "MON MESSAGE ICI"
+
+Pour valider l'ajout et tout envoyer dans le repo : --> GIT PUSH
+
+--
+
+Pour recuperer le contenu du REPO : --> GIT CLONE https://github.com/sybcrom/NOM_DU_REPO.git
+
